@@ -3,7 +3,7 @@ import { Github, Globe, Linkedin } from "lucide-react";
 
 export function Footer() {
     return (
-        <footer className="w-full border-t border-border py-12 mt-20">
+        <footer className="w-full border-t border-border py-12">
             <div className="mx-auto max-w-6xl px-4">
 
                 {/* GRID */}
