@@ -61,21 +61,21 @@ export default function PlaygroundPage() {
                         <TabsList className="w-full grid grid-cols-3 bg-playground-toolbar border-b border-playground-panel-border rounded-none h-12 shadow-sm">
                             <TabsTrigger
                                 value="editor"
-                                className="data-[state=active]:bg-playground-panel data-[state=active]:text-playground-accent data-[state=active]:shadow-sm flex items-center gap-2 transition-all"
+                                className="hover:cursor-pointer data-[state=active]:bg-playground-panel data-[state=active]:text-playground-accent data-[state=active]:shadow-sm flex items-center gap-2 transition-all"
                             >
                                 <Code2 size={16} />
                                 <span className="hidden sm:inline">Editor</span>
                             </TabsTrigger>
                             <TabsTrigger
                                 value="preview"
-                                className="data-[state=active]:bg-playground-panel data-[state=active]:text-playground-accent data-[state=active]:shadow-sm flex items-center gap-2 transition-all"
+                                className="hover:cursor-pointer data-[state=active]:bg-playground-panel data-[state=active]:text-playground-accent data-[state=active]:shadow-sm flex items-center gap-2 transition-all"
                             >
                                 <Globe size={16} />
                                 <span className="hidden sm:inline">Preview</span>
                             </TabsTrigger>
                             <TabsTrigger
                                 value="console"
-                                className="data-[state=active]:bg-playground-panel data-[state=active]:text-playground-accent data-[state=active]:shadow-sm flex items-center gap-2 transition-all"
+                                className="hover:cursor-pointer data-[state=active]:bg-playground-panel data-[state=active]:text-playground-accent data-[state=active]:shadow-sm flex items-center gap-2 transition-all"
                             >
                                 <Terminal size={16} />
                                 <span className="hidden sm:inline">Console</span>
